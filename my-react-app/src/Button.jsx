@@ -8,7 +8,7 @@ function Button () {
     const styles = {
         color:"white",
         fontSize : "2rem",
-        backgroundColor: "hsl(240, 73%, 41%)",
+        backgroundColor: "hsl(240, 36.40%, 74.70%)",
         padding: "10px 15px",
         border :"none", 
         borderRadius : "3px",
