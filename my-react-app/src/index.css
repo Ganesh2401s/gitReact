@@ -1,0 +1,119 @@
+.UserCardContainer {
+    /* border: 5px solid hsla(0, 0%, 0%, 0.106); */
+    box-shadow: 3px 5px 20px hsla(0, 0%, 0%, 0.299);
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-left: 33%;
+
+}
+
+.UserCardContainer > p {
+    font-size: 1rem;
+    font-weight: 900;
+    margin-top: -1.5rem;
+}
+.UserCardContainer > h2 {
+    font-size: 2rem;
+    margin-top: -1rem;
+
+} 
+.UserCardContainer > img {
+    width: 250px;
+    margin: 1rem;
+    border-radius: 1%;     
+}
+
+ 
+
+.BtnContainer > .Btn:hover{    
+    background-color: hsl(240, 73%, 51%) !important ; 
+
+}
+
+/* Dynamic list */
+.item-category {
+    background-color: hsl(0, 0%, 79%);
+}
+
+.microStudentTable  tr{
+    background-color: hsl(35, 59%, 59%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border : 5px solid white;
+    padding: 1rem 2rem;
+
+}
+
+.microStudentTable th {
+    font-size: 1.5rem;
+    color: rgb(210, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 5px;
+
+}
+
+.microStudentTable tr:hover {
+    background-color: hsl(35, 90%, 49%);
+    color : black;
+    cursor: pointer;
+}
+
+/* CSS for MyHook Counter Program which uses useState() */
+
+.countContainer{
+    height: auto;
+    width: 20rem;
+    text-align: center;
+    background-color: hsl(0, 1%, 78%);
+
+}
+.countDisplay{
+    font-size: 4rem;
+    background-color: hsl(30, 1%, 54%);
+    text-align: center;
+    width: 10rem;
+    margin: auto;
+
+    
+     
+
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.btnContainer >  button{
+    border: none;
+    color: white;
+    background-color: hsl(240, 83%, 50%);
+    font-size: 1.05rem;
+    padding: 2px 5px;
+    border-radius: 0.2rem;
+    
+
+}
+.btnContainer >  button:hover{
+    background-color: hsl(240, 83%, 40%); 
+}
+
+/* CSS for MyHook2 ColorContainer */
+
+.colorContainer{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.colorContainer > button{
+    border: none;
+    color: white;
+    background-color: hsl(240, 83%, 50%);
+    font-size: 1.05rem;
+    padding: 2px 5px;
+    border-radius: 0.2rem;
+}

@@ -1,0 +1,13 @@
+.table > thead, tbody{
+    font-size: 2rem;
+     
+}
+
+.table{
+    text-align: center;
+}
+
+.table tr:nth-child(odd){
+    background-color: rgb(51, 140, 140);
+}
+
